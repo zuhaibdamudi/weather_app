@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.application.weather_app.weather_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/zuhaibdamudi/AndroidStudioProjects/weather_app/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/zuhaibdamudi/AndroidStudioProjects/weather_app/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->[:location] /Users/zuhaibdamudi/AndroidStudioProjects/weather_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+15-->[:location] /Users/zuhaibdamudi/AndroidStudioProjects/weather_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->[:location] /Users/zuhaibdamudi/AndroidStudioProjects/weather_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-79
+16-->[:location] /Users/zuhaibdamudi/AndroidStudioProjects/weather_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-76
+17
+18    <application
+19        android:name="android.app.Application"
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.6.0] /Users/zuhaibdamudi/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+23        android:label="weather_app" >
+24        <activity
+25            android:name="com.application.weather_app.weather_app.MainActivity"
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27            android:exported="true"
+28            android:hardwareAccelerated="true"
+29            android:launchMode="singleTop"
+30            android:theme="@style/LaunchTheme"
+31            android:windowSoftInputMode="adjustResize" >
+32
+33            <!--
+34                 Specifies an Android theme to apply to this Activity as soon as
+35                 the Android process has started. This theme is visible to the user
+36                 while the Flutter UI initializes. After that, this theme continues
+37                 to determine the Window background behind the Flutter UI.
+38            -->
+39            <meta-data
+40                android:name="io.flutter.embedding.android.NormalTheme"
+41                android:resource="@style/NormalTheme" />
+42
+43            <intent-filter>
+44                <action android:name="android.intent.action.MAIN" />
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+47            </intent-filter>
+48        </activity>
+49        <!--
+50             Don't delete the meta-data below.
+51             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+52        -->
+53        <meta-data
+54            android:name="flutterEmbedding"
+55            android:value="2" />
+56
+57        <service
+57-->[:location] /Users/zuhaibdamudi/AndroidStudioProjects/weather_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-15:56
+58            android:name="com.lyokone.location.FlutterLocationService"
+58-->[:location] /Users/zuhaibdamudi/AndroidStudioProjects/weather_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-71
+59            android:enabled="true"
+59-->[:location] /Users/zuhaibdamudi/AndroidStudioProjects/weather_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-35
+60            android:exported="false"
+60-->[:location] /Users/zuhaibdamudi/AndroidStudioProjects/weather_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+61            android:foregroundServiceType="location" />
+61-->[:location] /Users/zuhaibdamudi/AndroidStudioProjects/weather_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-53
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:16.0.1] /Users/zuhaibdamudi/.gradle/caches/transforms-2/files-2.1/6e537f81c6e3e5c318292c86670d4911/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:16.0.1] /Users/zuhaibdamudi/.gradle/caches/transforms-2/files-2.1/6e537f81c6e3e5c318292c86670d4911/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:16.0.1] /Users/zuhaibdamudi/.gradle/caches/transforms-2/files-2.1/6e537f81c6e3e5c318292c86670d4911/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:16.0.1] /Users/zuhaibdamudi/.gradle/caches/transforms-2/files-2.1/6e537f81c6e3e5c318292c86670d4911/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:16.0.1] /Users/zuhaibdamudi/.gradle/caches/transforms-2/files-2.1/f5f42c1f451a5dab1a35b38756b701d6/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:16.0.1] /Users/zuhaibdamudi/.gradle/caches/transforms-2/files-2.1/f5f42c1f451a5dab1a35b38756b701d6/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:16.0.1] /Users/zuhaibdamudi/.gradle/caches/transforms-2/files-2.1/f5f42c1f451a5dab1a35b38756b701d6/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+71    </application>
+72
+73</manifest>
