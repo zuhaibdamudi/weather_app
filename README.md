@@ -1,3 +1,3 @@
 # weather_app
 
-Weather App for Questt.
+Simple Weather App with data sourced from OpenWeather API

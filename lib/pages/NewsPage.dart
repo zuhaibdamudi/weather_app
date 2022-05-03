@@ -177,7 +177,7 @@ class _NewsPageState extends State<NewsPage> {
                       style: NeumorphicStyle(
                         // shadowLightColor: Colors.grey,
                         depth: 5,
-                        intensity: 1,
+                        intensity: 0.5,
                         boxShape: NeumorphicBoxShape.roundRect(BorderRadius.circular(25)),
                         color: Color(0xFFF5F5F5)
                       ),
@@ -244,7 +244,7 @@ class _NewsPageState extends State<NewsPage> {
                       style: NeumorphicStyle(
                         // shadowLightColor: Colors.grey,
                         depth: 5,
-                        intensity: 1,
+                        intensity: 0.5,
                         boxShape: NeumorphicBoxShape.roundRect(BorderRadius.circular(25)),
                         color: Color(0xFFF5F5F5)
                       ),
@@ -311,7 +311,7 @@ class _NewsPageState extends State<NewsPage> {
                       style: NeumorphicStyle(
                         // shadowLightColor: Colors.grey,
                         depth: 5,
-                        intensity: 1,
+                        intensity: 0.5,
                         boxShape: NeumorphicBoxShape.roundRect(BorderRadius.circular(25)),
                         color: Color(0xFFF5F5F5)
                       ),

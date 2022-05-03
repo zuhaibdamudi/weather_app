@@ -27,7 +27,7 @@
 20-->[androidx.core:core:1.6.0] /Users/zuhaibdamudi/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
-23        android:label="weather_app" >
+23        android:label="Questt Weather App" >
 24        <activity
 25            android:name="com.application.weather_app.weather_app.MainActivity"
 26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

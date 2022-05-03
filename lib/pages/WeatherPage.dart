@@ -263,7 +263,6 @@ class _WeatherPageState extends State<WeatherPage> {
                                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                         children: [
                                           Text(
-                                            // "23°",
                                             "${weatherData["main"]["temp_max"].round()}°",
                                             style: TextStyle(
                                               fontWeight: FontWeight.w400,
